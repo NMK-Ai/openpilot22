@@ -79,7 +79,7 @@
 ## Community Maintained Cars and Features
 
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
-| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
+| ----------| ------------------------------|-------------------| -----------------| -------------------| -------------|
 | Audi      | A3 2014-19                    | ACC + Lane Assist | Stock            | 0mph               | 0mph         |
 | Audi      | A3 Sportback e-tron 2017-18   | ACC + Lane Assist | Stock            | 0mph               | 0mph         |
 | Audi      | Q2 2018                       | ACC + Lane Assist | Stock            | 0mph               | 0mph         |
@@ -101,11 +101,11 @@
 | GMC       | Acadia 2018<sup>1</sup>       | Adaptive Cruise   | openpilot        | 0mph               | 7mph         |
 | Holden    | Astra 2017<sup>1</sup>        | Adaptive Cruise   | openpilot        | 0mph               | 7mph         |
 | Hyundai   | Elantra 2017-19               | SCC + LKAS        | Stock            | 19mph              | 34mph        |
-| Hyundai   | Elantra 2021                  | SCC + LKAS        | Stock            | 0mph               | 0mph         |
+| Hyundai   | Elantra 2021                  | SCC + LFA         | Stock            | 0mph               | 0mph         |
 | Hyundai   | Elantra Hybrid 2021           | SCC + LKAS        | Stock            | 0mph               | 0mph         |
 | Hyundai   | Genesis 2015-16               | SCC + LKAS        | Stock            | 19mph              | 37mph        |
 | Hyundai   | Ioniq Electric 2019           | SCC + LKAS        | Stock            | 0mph               | 32mph        |
-| Hyundai   | Ioniq Electric 2020           | SCC + LKAS        | Stock            | 0mph               | 0mph         |
+| Hyundai   | Ioniq Electric 2020           | SCC + LFA         | Stock            | 0mph               | 0mph         |
 | Hyundai   | Ioniq Hybrid 2017-19          | SCC + LKAS        | Stock            | 0mph               | 32mph        |
 | Hyundai   | Ioniq Hybrid 2020-22          | SCC + LFA         | Stock            | 0mph               | 0mph         |
 | Hyundai   | Ioniq PHEV 2020-21            | SCC + LKAS        | Stock            | 0mph               | 0mph         |
