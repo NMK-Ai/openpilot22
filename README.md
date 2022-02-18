@@ -32,9 +32,9 @@ What is openpilot?
 
 <table>
   <tr>
-    <td><a href="https://youtu.be/NmBfgOanCyk" title="Video By Greer Viau"><img src="https://i.imgur.com/1w8c6d2.jpg"></a></td>
-    <td><a href="https://youtu.be/VHKyqZ7t8Gw" title="Video By Logan LeGrand"><img src="https://i.imgur.com/LnBucik.jpg"></a></td>
-    <td><a href="https://youtu.be/VxiR4iyBruo" title="Video By Charlie Kim"><img src="https://i.imgur.com/4Qoy48c.jpg"></a></td>
+    <td><a href="https://youtu.be/Asq9IBZ5EL8" title="Video By Greer Viau"><img src="https://i.imgur.com/1aVz6fu.png"></a></td>
+    <td><a href="https://youtu.be/YfMKV0BCS3E" title="Video By Logan LeGrand"><img src="https://i.imgur.com/U2kBp1r.jpg"></a></td>
+    <td><a href="https://youtu.be/fE3jcvNPKuU" title="Video By Charlie Kim"><img src="https://i.imgur.com/PInrzIG.jpg"></a></td>
     <td><a href="https://youtu.be/-IkImTe1NYE" title="Video By Aragon"><img src="https://i.imgur.com/04VNzPf.jpg"></a></td>
   </tr>
   <tr>
