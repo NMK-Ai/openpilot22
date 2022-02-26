@@ -61,8 +61,8 @@ https://github.com/xx979xx/openpilot
 
 يمكن تشغيل جميع خدمات الأوبن بايلوت كالمعتاد على جهاز الكمبيوتر , حتى بدون أجهزة خاصة أو سيارة لتطوير أو تجربة الأوبن بايلوت , زيمكن تشغيل الأوبن بايلوت على بيانات مسجلة أو محاكاة.
 
-بإستخدام أدوات الأوبن بايلوت , يمكنك رسم السجلات , وإعادة تشغيل محركات الأقراص ومشاهدة تدفقات الكاميرا كاملة الدقة , انظر [ معلومات الأدوات ] (tools/README.md) لمزيد من المعلومات.
-يمكنك أيضاً تشغيل الأوبن بايلوت على المحاكي [ على محاكي كلارا ] (tools/sim/README.md). 
+بإستخدام أدوات الأوبن بايلوت , يمكنك رسم السجلات , وإعادة تشغيل محركات الأقراص ومشاهدة تدفقات الكاميرا كاملة الدقة , انظر [ معلومات الأدوات ] (tools/README.md). 
+يمكنك أيضاً تشغيل الأوبن بايلوت على المحاكي [ على محاكي كلارا ] (tools/sim/README.md).  
 (tools/sim/README.md). This allows openpilot to drive around a virtual car on your Ubuntu machine. The whole setup should only take a few minutes, but does require a decent GPU.
 
 
@@ -102,33 +102,33 @@ Safety and Testing
 * panda has additional hardware in the loop [tests](https://github.com/commaai/panda/blob/master/Jenkinsfile).
 * We run the latest openpilot in a testing closet containing 10 comma devices continuously replaying routes.
 
-Directory Structure
+بنية الدليل
 ------
     .
-    ├── cereal              # The messaging spec and libs used for all logs
-    ├── common              # Library like functionality we've developed here
-    ├── docs                # Documentation
-    ├── opendbc             # Files showing how to interpret data from cars
-    ├── panda               # Code used to communicate on CAN
-    ├── third_party         # External libraries
-    ├── pyextra             # Extra python packages
-    └── selfdrive           # Code needed to drive the car
-        ├── assets          # Fonts, images, and sounds for UI
-        ├── athena          # Allows communication with the app
-        ├── boardd          # Daemon to talk to the board
-        ├── camerad         # Driver to capture images from the camera sensors
-        ├── car             # Car specific code to read states and control actuators
-        ├── common          # Shared C/C++ code for the daemons
-        ├── controls        # Planning and controls
-        ├── debug           # Tools to help you debug and do car ports
-        ├── locationd       # Precise localization and vehicle parameter estimation
-        ├── logcatd         # Android logcat as a service
-        ├── loggerd         # Logger and uploader of car data
-        ├── modeld          # Driving and monitoring model runners
-        ├── proclogd        # Logs information from proc
-        ├── sensord         # IMU interface code
-        ├── test            # Unit tests, system tests, and a car simulator
-        └── ui              # The UI
+    ├── cereal              # مواصفات الرسائل و الطبقات المستخدمة في جميع الخوارزميات
+    ├── common              # مكتبة مثل الوظائف التي قمنا بتطويرها هنا
+    ├── docs                # التوثيق
+    ├── opendbc             # ملفات توضح كيفية تفسير البيانات من السيارات
+    ├── panda               # رمز يستخدم للتواصل على الكان
+    ├── third_party         # مكتبات خارجية
+    ├── pyextra             # حزم بايثون الإضافية
+    └── selfdrive           # الأكواد المطلوبة لقيادة السيارة
+        ├── assets          # الخطوط, الصور, و الأصوات للواجهة
+        ├── athena          # يسمح بالتواصل مع التطبيق
+        ├── boardd          # الديمون الذي يسمح للاتصال مع البورد
+        ├── camerad         # يسمح لالتقاط الصور من مستشعرات الكاميرا
+        ├── car             # رمز السيارة المحدد لقراءة الحالات والتحكم في المشغلات
+        ├── common          # كود C / C ++ مشترك الدومين
+        ├── controls        # التخطيط والضوابط
+        ├── debug           # أدوات لمساعدتك على التصحيح والقيام بمنافذ السيارة
+        ├── locationd       # توطين دقيق وتقدير معايرة السيارة
+        ├── logcatd         # ملفات الأندرويد والخدمات
+        ├── loggerd         # مسجل وتحميل بيانات السيارة
+        ├── modeld          # نظام مراقبة القيادة أثناء العمل
+        ├── proclogd        # معلومات السجلات من proc
+        ├── sensord         # رمز واجهة IMU
+        ├── test            # اختبارات الوحدة واختبارات النظام وجهاز محاكاة السيارة
+        └── ui              # واجهة المستخدم
 
 Licensing
 ------
