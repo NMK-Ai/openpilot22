@@ -1,34 +1,34 @@
 
-**This is based on xx979xx for Hyundai, Kia, Genesis.**
+**هذه الملفات مبنية من المهندس أحمد برناوي لتطوير أنطمة القيادة لهيونداي , كيا , جينسس**
+
 
 https://github.com/xx979xx/openpilot
 
-It is open source and inherits MIT license.  By installing this software you accept all responsibility for anything that might occur while you use it.  All contributors to this fork are not liable.  <b>Use at your own risk.</b>
-
+إنه مفتوح المصدر ومرحص من معهد ماساتشوستس للتكنولوجيا. بتثبيت هذا البرنامج ، فإنك تتحمل كامل المسؤولية عن أي شيء قد يحدث أثناء استخدامه. جميع المساهمين في هذه الشوكة غير مسؤولين. استخدم على مسؤوليتك الخاصة.
 
 ------------------------------------------------------
 
 
-![](https://i.imgur.com/b0ZyIx5.jpg)
+![](https://i.imgur.com/JVj5aZc.jpg)
 
-Table of Contents
+جدول المحتويات
 =======================
 
-* [What is openpilot?](#what-is-openpilot)
-* [Running in a car](#running-in-a-car)
-* [Running on PC](#running-on-pc)
-* [Community and Contributing](#community-and-contributing)
-* [User Data and comma Account](#user-data-and-comma-account)
-* [Safety and Testing](#safety-and-testing)
-* [Directory Structure](#directory-structure)
-* [Licensing](#licensing)
+* [ماهو برنامج الاوبن بايلوت ؟](#what-is-openpilot)
+* [عمله على السيارة](#running-in-a-car)
+* [عمله على الكمبيوتر](#running-on-pc)
+* [المجتمع والمساهمة](#community-and-contributing)
+* [بينانات المسخدم وحساب كوما](#user-data-and-comma-account)
+* [السلامة والاختبار](#safety-and-testing)
+* [بنية الدليل](#directory-structure)
+* [الترخيص](#licensing)
 
 ---
 
-What is openpilot?
+ماهو الأوبن بايلوت؟
 ------
 
-[openpilot](http://github.com/commaai/openpilot) is an open source driver assistance system. Currently, openpilot performs the functions of Adaptive Cruise Control (ACC), Automated Lane Centering (ALC), Forward Collision Warning (FCW) and Lane Departure Warning (LDW) for a growing variety of [supported car makes, models and model years](docs/CARS.md). In addition, while openpilot is engaged, a camera based Driver Monitoring (DM) feature alerts distracted and asleep drivers. See more about [the vehicle integration](docs/INTEGRATION.md) and [limitations](docs/LIMITATIONS.md).
+[openpilot](http://github.com/commaai/openpilot) هو نظام مفتوح المصدر لمساعدة السائق. حاليًا ، يؤدي برنامج openpilot وظائف التحكم التكيفي في القيادة (ACC) ، وتمركز المسار الآلي (ALC) ، والتحذير من الاصطدام الأمامي (FCW) ، والتحذير من مغادرة المسار (LDW) لمجموعة متزايدة من [السيارات المدعومة والموديلات الحديثة كل عام](docs/CARS.md). In addition, while openpilot is engaged, a camera based Driver Monitoring (DM) feature alerts distracted and asleep drivers. See more about [the vehicle integration](docs/INTEGRATION.md) and [محدودية](docs/LIMITATIONS.md).
 
 <table>
   <tr>
@@ -46,7 +46,7 @@ What is openpilot?
 </table>
 
 
-Running in a car
+عمله على السبارة
 ------
 
 To use openpilot in a car, you need four things
