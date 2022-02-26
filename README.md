@@ -28,7 +28,7 @@ https://github.com/xx979xx/openpilot
 ماهو الأوبن بايلوت؟
 ------
 
-[openpilot](http://github.com/commaai/openpilot) هو نظام مفتوح المصدر لمساعدة السائق. حاليًا ، يؤدي برنامج openpilot وظائف التحكم التكيفي في القيادة (ACC) ، وتمركز المسار الآلي (ALC) ، والتحذير من الاصطدام الأمامي (FCW) ، والتحذير من مغادرة المسار (LDW) لمجموعة متزايدة من [السيارات المدعومة والموديلات الحديثة كل عام](docs/CARS.md). In addition, while openpilot is engaged, a camera based Driver Monitoring (DM) feature alerts distracted and asleep drivers. See more about [the vehicle integration](docs/INTEGRATION.md) and [محدودية](docs/LIMITATIONS.md).
+[openpilot](http://github.com/commaai/openpilot) هو نظام مفتوح المصدر لمساعدة السائق. حاليًا ، يؤدي برنامج openpilot وظائف التحكم التكيفي في القيادة (ACC) ، وتمركز المسار الآلي (ALC) ، والتحذير من الاصطدام الأمامي (FCW) ، والتحذير من مغادرة المسار (LDW) لمجموعة متزايدة من [السيارات المدعومة والموديلات الحديثة كل عام](docs/CARS.md). بالإضافة أثناء تشغيل الأوبن بايلوت , تعمل كاميرا مراقبة السائق (DM) على مراقبة السائق المشتت الإنتباه والنائم أثناء عمل النظام. لمزيد من المعلومات [ تكامل المركبة ](docs/INTEGRATION.md) و [محدودية](docs/LIMITATIONS.md).
 
 <table>
   <tr>
@@ -49,25 +49,24 @@ https://github.com/xx979xx/openpilot
 عمله على السيارة
 ------
 
-To use openpilot in a car, you need four things
-* This software. It's free and available right here.
-* One of [the 150+ supported cars](docs/CARS.md). We support Honda, Toyota, Hyundai, Nissan, Kia, Chrysler, Lexus, Acura, Audi, VW, and more. If your car is not supported, but has adaptive cruise control and lane keeping assist, it's likely able to run openpilot.
-* A supported device to run this software. This can be a [comma two](https://comma.ai/shop/products/two), [comma three](https://comma.ai/shop/products/three), or if you like to experiment, a [Ubuntu computer with webcams](https://github.com/commaai/openpilot/tree/master/tools/webcam).
-* A way to connect to your car. With a comma two or three, you need only a [car harness](https://comma.ai/shop/products/car-harness). With an EON Gold or PC, you also need a [black panda](https://comma.ai/shop/products/panda).
+لاستخدام نظام الاوبن بايلوت تحتاج إلى أربعة أشياء.
+* هذا البرنامج إنه مجاني ومتاح هنا.
+* إحدى[ أكثر من 150 سيارة مدعومة ](docs/CARS.md). نحن ندعم هوندا, تويوتا ، هيونداي ، نيسان ، كيا ، كرايسلر ، لكزس ، أكورا ، أودي ، فولكس فاجن ، وأكثر من ذلك. إذا كانت سيارتك غير مدعومة, ولاكن يجب أن يكون لديك نظام مثبت السرعة التكيفي ومساعد الحفاظ على المسار لكي تستطيع تشغيل نظام الاوبن بايلوت على مركبتك.
+* الجهاز يدهم تشعيل البرنامج[كوما إثنين](https://comma.ai/shop/products/two), [كوما ثلاثة](https://comma.ai/shop/products/three), أو إذا كنت ترغب في التجربة, على [اليوبينتو مع كاميرا الويب](https://github.com/commaai/openpilot/tree/master/tools/webcam).
+* طريقة التوصيل مع سيارتك على كوما إثنين أو ثلاثة تحتاج فقط إلى [ظفيرة للتوصيل](https://comma.ai/shop/products/car-harness). مع الايون الذهبي أو الكمبيوتر وأيضاً تحتاج إلى [البلاك باندا ] (https://comma.ai/shop/products/panda).
+ لدينا إرشادات مفصلة حول [كيفية تثبيت الجهاز في السيارة](https://comma.ai/setup).
 
-We have detailed instructions for [how to install the device in a car](https://comma.ai/setup).
+العمل على جهاز الكمبيوتر
+--------
 
-Running on PC
-------
+يمكن تشغيل جميع خدمات الأوبن بايلوت كالمعتاد على جهاز الكمبيوتر , حتى بدون أجهزة خاصة أو سيارة لتطوير أو تجربة الأوبن بايلوت , زيمكن تشغيل الأوبن بايلوت على بيانات مسجلة أو محاكاة.
 
-All of openpilot's services can run as normal on a PC, even without special hardware or a car. To develop or experiment with openpilot you can run openpilot on recorded or simulated data.
-
-With openpilot's tools you can plot logs, replay drives and watch the full-res camera streams. See [the tools README](tools/README.md) for more information.
-
-You can also run openpilot in simulation [with the CARLA simulator](tools/sim/README.md). This allows openpilot to drive around a virtual car on your Ubuntu machine. The whole setup should only take a few minutes, but does require a decent GPU.
+بإستخدام أدوات الأوبن بايلوت , يمكنك رسم السجلات , وإعادة تشغيل محركات الأقراص ومشاهدة تدفقات الكاميرا كاملة الدقة , انظر [ معلومات الأدوات ] (tools/README.md) لمزيد من المعلومات.
+يمكنك أيضاً تشغيل الأوبن بايلوت على المحاكي [ على محاكي كلارا ] (tools/sim/README.md). 
+(tools/sim/README.md). This allows openpilot to drive around a virtual car on your Ubuntu machine. The whole setup should only take a few minutes, but does require a decent GPU.
 
 
-Community and Contributing
+المجتمع والمساهمة
 ------
 
 openpilot is developed by [comma](https://comma.ai/) and by users like you. We welcome both pull requests and issues on [GitHub](http://github.com/commaai/openpilot). Bug fixes and new car ports are encouraged. Check out [the contributing docs](docs/CONTRIBUTING.md).
